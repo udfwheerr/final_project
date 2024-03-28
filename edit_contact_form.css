@@ -1,0 +1,43 @@
+
+header {
+  background-color: #f5f5f5;
+  background: linear-gradient(to bottom, #f5f5f5, #ffffff);
+  color: #fff;
+  padding: 10px;
+}
+
+
+.logo-container {
+  text-align: center;
+  display: block; 
+}
+
+.logo {
+  width: 250px; 
+}
+
+nav {
+  text-align: center; 
+  
+  padding: 1px; /* Add padding for spacing */
+}
+
+nav ul {
+  list-style-type: none;
+  margin-top: 20px; 
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 50px; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(232, 48, 180);
+}
+a:hover {
+  color: rgb(147, 141, 146); /* Change color on hover */
+  text-decoration: underline; /* Add underline on hover */
+  text-decoration: none;
+}

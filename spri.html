@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Container with Two Rows and Two Columns</title>
+  <style>
+    .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  margin-bottom: 30px; /* Space between rows */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1; /* Each column takes equal space */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-right: 10px; /* Space between columns */
+}
+
+.col:nth-child(even) {
+  margin-right: 0; /* Remove margin on even columns */
+}
+
+.col img {
+  max-width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.col p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #f5f5f5, #ffffff);
+    color: #fff;
+    padding: 10px;
+}
+
+
+.logo-container {
+    text-align: center;
+    display: block; 
+}
+
+.logo {
+    width: 250px; 
+}
+
+nav {
+    text-align: center; 
+    
+    padding: 1px; /* Add padding for spacing */
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 20px; 
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 50px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(232, 48, 180);
+}
+a:hover {
+    color: rgb(147, 141, 146); /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+    text-decoration: none;
+}
+.display-4 a {
+        font-size: 16px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+        <a href="Home.html" class="logo-container"><img src="Images/Untitled-2.png" alt="Meditation Logo" class="logo"></a>
+        <nav>
+            <ul>
+                <li class="display-4"><a href="Home.html">Home</a></li>
+                <li class="display-4"><a href="About.html">About</a></li>
+                <li class="display-4"><a href="Services.html">Services</a></li>
+                <li class="display-4"><a href="Projects.html">Projects</a></li>
+                <li class="display-4"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <img src="Images/young-woman-yoga-pose-with-back.jpg" alt="Image 1">
+      <h2>Tadasana (Mountain Pose)</h2>
+        <p>Stand with feet together, arms relaxed by the sides, and palms facing forward.
+          Keep the body aligned from heels to the crown of the head, engaging the thighs and lifting the chest.</p>
+        <h3>Benefits</h3>
+        <p> Improves posture, strengthens thighs and knees, tones abdomen, and helps with focus and concentration.</p>
+    </div>
+    <div class="col">
+      <img src="Images/balasana-pose.jpg" alt="Image 2">
+      <h2>Adho Mukha Svanasana (Downward-Facing Dog Pose)</h2>
+      <p>Begin on your hands and knees, with hands slightly ahead of the shoulders and knees below the hips.
+        Lift the hips upward, straightening the arms and legs, forming an inverted V-shape.
+        Press the hands into the mat, lengthen the spine, and relax the head between the arms.</p>
+        <h3>Benefits</h3>
+        <p>Stretches the shoulders, hamstrings, calves, and hands. Strengthens arms and legs, relieves mild depression, and energizes the body.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <img src="Images/DSC08689.jpg" alt="Image 3">
+      <h2>Uttanasana (Standing Forward Bend)</h2>
+      <p>Stand with feet hip-width apart, hinge at the hips, and fold forward, bringing the chest towards the thighs.
+        Keep the knees slightly bent if necessary, and let the head hang heavy.</p>
+        <h3>Benefits</h3>
+        <p>Stretches the hips, hamstrings, and calves. Calms the mind, relieves stress, and improves digestion.</p>
+    </div>
+    <div class="col">
+      <img src="Images/Warrior-1-Pose_Andrew-Clark_2400x1350.webp" alt="Image 4">
+      <h2>Virabhadrasana I (Warrior I Pose)</h2>
+      <p>Start in a standing position, step one foot back, keeping it at a 45-degree angle.
+        Bend the front knee to a 90-degree angle, keeping the knee over the ankle.
+        Raise the arms overhead, palms facing each other, and gaze forward.</p>
+        <h3>Benefits</h3>
+        <p>Strengthens legs, arms, shoulders, and back. Improves focus, balance, and stability.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

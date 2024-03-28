@@ -1,0 +1,142 @@
+header {
+    background-color: #f5f5f5;
+    background: linear-gradient(to bottom, #f5f5f5, #ffffff);
+    color: #fff;
+    padding: 10px;
+}
+
+
+.logo-container {
+    text-align: center;
+    display: block; 
+}
+
+.logo {
+    width: 250px; 
+}
+
+nav {
+    text-align: center; 
+    
+    padding: 1px; /* Add padding for spacing */
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 20px; 
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 50px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(232, 48, 180);
+}
+a:hover {
+    color: rgb(147, 141, 146); /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+    text-decoration: none;
+}
+.display-4 a {
+    font-size: 16px;
+}
+.carousel-item img {
+    max-height: 900px; /* Limit the height of images */
+    margin: auto; /* Center the images horizontally */
+}
+.carousel-item .card {
+    margin: auto; /* Center the cards horizontally */
+    max-width: 500px; /* Limit the width of cards */
+}
+.carousel-control-prev,
+.carousel-control-next {
+    margin-top: -25px; /* Adjust position of carousel controls */
+}
+.container-carousel {
+    padding: 20px;
+    background: linear-gradient(135deg, #8a2be2, #87cefa, #ffffff);
+
+    
+}
+.about-heading {
+    background: linear-gradient(135deg, #B19CD9, #FFFFFF);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px; 
+}
+
+.about-heading h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-heading p {
+    font-size: 18px;
+}
+
+.about-section {
+    padding: 50px 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+ /* Footer styles */
+ footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+footer, p {
+    color: #333;
+    text-align: center;
+}
+ /* Center align the button */
+ .carousel-item .card-body {
+    text-align: center;
+}
+
+/* Apply hover effect with gradient */
+.btn-primary {
+    border: none; /* Remove border */
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(to right, purple, white);
+    color: white;
+}
